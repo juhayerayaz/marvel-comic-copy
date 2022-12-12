@@ -21,12 +21,12 @@ const Navbar = () => {
                         <img src="https://i.annihil.us/u/prod/marvel/images/mu/web/2021/icon-mu-shield.png" className='w-[20xp] h-[28px]' alt="" />
                         <h3 className='text-center mx-3 text-xs font-semibold uppercase' style={{ letterSpacing: '1px' }}>Marvel Unlimited <br /> <span className='font-normal text-xs' style={{ letterSpacing: '1px' }}>Subscribe</span></h3>
                     </div>
-                    <div className='border border-[#393939] border-solid p-4 border-l-0 border-y-0 font-bold'>
+                    <div className='border border-[#393939] border-solid p-4 border-l-0 border-y-0 font-bold cursor-pointer'>
                         <BsSearch />
                     </div>
                 </div>
             </div>
-            <div className='flex items-center text-white justify-center h-10 gap-x-5 mr-20'>
+            <div className='flex items-center text-white justify-center h-10 gap-x-5 mr-24'>
                 <p className='text-sm uppercase font-semibold cursor-pointer' style={{ letterSpacing: '2px' }}>News</p>
                 <p className='text-sm uppercase font-semibold cursor-pointer' style={{ letterSpacing: '2px' }}>Comics</p>
                 <p className='text-sm uppercase font-semibold cursor-pointer' style={{ letterSpacing: '2px' }}>Character</p>
