@@ -1,0 +1,90 @@
+.promo-strip.active-dark {
+    color: #fff;
+}
+
+.promo-strip.active-light,
+.promo-strip.active-dark {
+    display: block;
+}
+
+.promo-strip {
+    display: none;
+    margin-bottom: 50px;
+}
+.promo-strip.active-dark .promo-strip__container {
+    border-color: black;
+    background-color: black;
+}
+
+.promo-strip__container {
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.promo-strip__image.insider {
+    background-image: url(//i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/bg-insider-callout.jpg);
+}
+
+@media (min-width: 961px) {
+.promo-strip__image {
+    flex: 1;
+    flex-basis: 200px;
+}}
+
+.promo-strip__image {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+.promo-strip.noTitle .promo-strip__container .promo-strip__title {
+    display: none;
+}
+
+@media (min-width: 961px){ .promo-strip__title {
+    flex: 2;
+}
+}
+
+.promo-strip__title {
+    flex: 0 0 100%;
+}
+@media (min-width: 961px){ .promo-strip.noTitle .promo-strip__container .promo-strip__copy {
+    flex: 6;
+}
+}
+
+@media (min-width: 961px){ .promo-strip__copy {
+    flex: 4;
+}
+}
+
+.promo-strip__copy {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 961px){ .promo-strip__container>*:last-of-type {
+    margin-bottom: 0;
+}
+}
+.promo-strip__container>*:last-of-type {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 961px){ .promo-strip__join {
+    margin-top: 0;
+    flex: 2;
+}
+}
+
+.promo-strip__join {
+    margin-top: 20px;
+    text-align: center;
+}

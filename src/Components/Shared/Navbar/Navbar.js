@@ -13,7 +13,7 @@ const Navbar = () => {
                     |
                     <Link className='ml-2 text-xs font-semibold' style={{ letterSpacing: '1px' }}>JOIN</Link>
                 </div>
-                <div className='px-80'>
+                <div className='mx-[22rem]'>
                     <img className='h-[52px]' src={logo} alt="" />
                 </div>
                 <div className='flex items-center text-white'>
