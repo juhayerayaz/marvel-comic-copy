@@ -88,3 +88,17 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.comics img {
+    box-shadow: 0 26px 24px -16px rgb(0 0 0 / 40%);
+}
+
+.comics a:hover {
+    color: orange;
+    transition: ease-in-out 200ms;
+}
+
+.comics img:hover {
+    transform: translateY(-12px);
+    transition: ease-in-out 250ms;
+}
