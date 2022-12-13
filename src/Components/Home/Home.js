@@ -1,14 +1,14 @@
 import React from 'react';
 import Carousel from '../Carousel/Carousel';
-import Navbar from '../Shared/Navbar/Navbar';
+import BestSelling from './BestSelling';
 import UpdateSec from './UpdateSec';
 
 const Home = () => {
     return (
         <>
-            <Navbar />
             <Carousel />
             <UpdateSec />
+            <BestSelling />
         </>
     );
 };

@@ -2,7 +2,7 @@
     visibility: hidden;
 }
 .swiper-button-next{
-    color: white !important;
+    color: white;
     margin-right: 10rem;
     transform: scale(1.3);
 }
