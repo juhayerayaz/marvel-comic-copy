@@ -2,4 +2,5 @@
 *{
   font-family:'Roboto Condensed', "Trebuchet MS",Helvetica,Arial,sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
